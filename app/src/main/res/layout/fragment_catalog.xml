@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btn_cucumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Огурцы" />
+    <Button android:id="@+id/btn_tomato" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Помидоры" />
+    <Button android:id="@+id/btn_ketchup" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Кетчуп" />
+    <Button android:id="@+id/btn_meat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Мясо" />
+
+    <Button android:id="@+id/btn_cart" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="ПЕРЕЙТИ В КОРЗИНУ" android:backgroundTint="#4CAF50" android:layout_marginTop="20dp" />
+</LinearLayout>
